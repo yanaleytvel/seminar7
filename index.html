@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1> Task List 2022 </h1></header>
+<main>
+    <div class="container" id="new-task-form">
+        
+        <div class="addTODO">
+            <input type="text" id="addTitle" placeholder= "What do you have planned?"/>
+            <div><input type="button" value="Add task" id="addBtn"></div>
+            <select id="addPrior">
+                <option value="1" class="opt1">Important</option>
+                <option value="2" class="opt2">Immaterial</option>
+                <option value="3" class="opt3">Urgent</option>
+                <option value="4" class="opt4">Not Urgent</option>
+            </select>
+            </div> 
+        <div class="delbtn"><input type="button" value="Delete all" id="delBtn"></div>
+
+    </div>
+    <div class="TODO"></div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
